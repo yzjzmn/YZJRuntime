@@ -14,6 +14,7 @@
 		44BCDD381EC18D3E0048D450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BCDD371EC18D3E0048D450 /* Assets.xcassets */; };
 		44BCDD3B1EC18D3E0048D450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BCDD391EC18D3E0048D450 /* LaunchScreen.storyboard */; };
 		44BCDD461EC18D3E0048D450 /* YZJRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BCDD451EC18D3E0048D450 /* YZJRuntimeUITests.m */; };
+		44BCDD521EC18D600048D450 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BCDD511EC18D600048D450 /* NSMutableArray+Safe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		44BCDD411EC18D3E0048D450 /* YZJRuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZJRuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BCDD451EC18D3E0048D450 /* YZJRuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJRuntimeUITests.m; sourceTree = "<group>"; };
 		44BCDD471EC18D3E0048D450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BCDD501EC18D600048D450 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		44BCDD511EC18D600048D450 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				44BCDD2F1EC18D3E0048D450 /* AppDelegate.m */,
 				44BCDD311EC18D3E0048D450 /* ViewController.h */,
 				44BCDD321EC18D3E0048D450 /* ViewController.m */,
+				44BCDD501EC18D600048D450 /* NSMutableArray+Safe.h */,
+				44BCDD511EC18D600048D450 /* NSMutableArray+Safe.m */,
 				44BCDD341EC18D3E0048D450 /* Main.storyboard */,
 				44BCDD371EC18D3E0048D450 /* Assets.xcassets */,
 				44BCDD391EC18D3E0048D450 /* LaunchScreen.storyboard */,
@@ -215,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BCDD521EC18D600048D450 /* NSMutableArray+Safe.m in Sources */,
 				44BCDD331EC18D3E0048D450 /* ViewController.m in Sources */,
 				44BCDD301EC18D3E0048D450 /* AppDelegate.m in Sources */,
 				44BCDD2D1EC18D3E0048D450 /* main.m in Sources */,
