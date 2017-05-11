@@ -15,6 +15,8 @@
 		44BCDD3B1EC18D3E0048D450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BCDD391EC18D3E0048D450 /* LaunchScreen.storyboard */; };
 		44BCDD461EC18D3E0048D450 /* YZJRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BCDD451EC18D3E0048D450 /* YZJRuntimeUITests.m */; };
 		44BCDD521EC18D600048D450 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BCDD511EC18D600048D450 /* NSMutableArray+Safe.m */; };
+		44FF83A31EC2F7AC009AEB01 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FF83A21EC2F7AC009AEB01 /* NSMutableDictionary+Safe.m */; };
+		44FF83A61EC2F80E009AEB01 /* NSObject+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FF83A51EC2F80E009AEB01 /* NSObject+Swizzled.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		44BCDD471EC18D3E0048D450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44BCDD501EC18D600048D450 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
 		44BCDD511EC18D600048D450 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		44FF83A11EC2F7AC009AEB01 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		44FF83A21EC2F7AC009AEB01 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		44FF83A41EC2F80E009AEB01 /* NSObject+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzled.h"; sourceTree = "<group>"; };
+		44FF83A51EC2F80E009AEB01 /* NSObject+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzled.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 				44BCDD321EC18D3E0048D450 /* ViewController.m */,
 				44BCDD501EC18D600048D450 /* NSMutableArray+Safe.h */,
 				44BCDD511EC18D600048D450 /* NSMutableArray+Safe.m */,
+				44FF83A11EC2F7AC009AEB01 /* NSMutableDictionary+Safe.h */,
+				44FF83A21EC2F7AC009AEB01 /* NSMutableDictionary+Safe.m */,
+				44FF83A41EC2F80E009AEB01 /* NSObject+Swizzled.h */,
+				44FF83A51EC2F80E009AEB01 /* NSObject+Swizzled.m */,
 				44BCDD341EC18D3E0048D450 /* Main.storyboard */,
 				44BCDD371EC18D3E0048D450 /* Assets.xcassets */,
 				44BCDD391EC18D3E0048D450 /* LaunchScreen.storyboard */,
@@ -221,9 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				44BCDD521EC18D600048D450 /* NSMutableArray+Safe.m in Sources */,
+				44FF83A61EC2F80E009AEB01 /* NSObject+Swizzled.m in Sources */,
 				44BCDD331EC18D3E0048D450 /* ViewController.m in Sources */,
 				44BCDD301EC18D3E0048D450 /* AppDelegate.m in Sources */,
 				44BCDD2D1EC18D3E0048D450 /* main.m in Sources */,
+				44FF83A31EC2F7AC009AEB01 /* NSMutableDictionary+Safe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +434,7 @@
 				44BCDD4C1EC18D3E0048D450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44BCDD4D1EC18D3E0048D450 /* Build configuration list for PBXNativeTarget "YZJRuntimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +443,7 @@
 				44BCDD4F1EC18D3E0048D450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
