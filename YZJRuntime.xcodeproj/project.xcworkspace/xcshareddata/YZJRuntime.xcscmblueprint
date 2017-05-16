@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "06108D22CF3BF139B80D7E71033B82F32F2EA0B4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F4FD89D6D89549AE937C6394A44D43043849016" : 9223372036854775807,
+    "06108D22CF3BF139B80D7E71033B82F32F2EA0B4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4A0646D4-1EA6-476A-AAD8-75D2794ADC36",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F4FD89D6D89549AE937C6394A44D43043849016" : "YZJRuntime\/YZJRuntime\/",
+    "06108D22CF3BF139B80D7E71033B82F32F2EA0B4" : "YZJRuntime\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YZJRuntime",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YZJRuntime.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yzjzmn\/YZJRuntime.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "06108D22CF3BF139B80D7E71033B82F32F2EA0B4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yzjzmn\/YZJRuntime.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F4FD89D6D89549AE937C6394A44D43043849016"
+    }
+  ]
+}
