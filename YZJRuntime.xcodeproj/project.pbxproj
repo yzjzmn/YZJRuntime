@@ -14,8 +14,8 @@
 		44BCDD381EC18D3E0048D450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BCDD371EC18D3E0048D450 /* Assets.xcassets */; };
 		44BCDD3B1EC18D3E0048D450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BCDD391EC18D3E0048D450 /* LaunchScreen.storyboard */; };
 		44BCDD461EC18D3E0048D450 /* YZJRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BCDD451EC18D3E0048D450 /* YZJRuntimeUITests.m */; };
-		44BCDD521EC18D600048D450 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BCDD511EC18D600048D450 /* NSMutableArray+Safe.m */; };
-		44FF83A31EC2F7AC009AEB01 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FF83A21EC2F7AC009AEB01 /* NSMutableDictionary+Safe.m */; };
+		44BCDD521EC18D600048D450 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BCDD511EC18D600048D450 /* NSMutableArray+Safe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		44FF83A31EC2F7AC009AEB01 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FF83A21EC2F7AC009AEB01 /* NSMutableDictionary+Safe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		44FF83A61EC2F80E009AEB01 /* NSObject+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FF83A51EC2F80E009AEB01 /* NSObject+Swizzled.m */; };
 /* End PBXBuildFile section */
 
