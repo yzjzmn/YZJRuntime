@@ -44,7 +44,7 @@ void aReplaceMethod() {
     [dataArr removeObjectAtIndex:10];
 
     [dataArr addObject:nil];
-    
+
     id objc = [dataArr objectAtIndex:4];
     
     
