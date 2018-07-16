@@ -1,0 +1,6 @@
+# YZJRuntime
+NSMutableArray越界等方法兼容，runtime的学习
+
+为了线上的稳定性,对NSMutableArray NSMutableDictionary进行swizzleMethod
+配合NSAssert的使用保证debug,同时release时防护起作用
+
